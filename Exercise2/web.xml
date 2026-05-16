@@ -1,0 +1,19 @@
+<web-app>
+
+    <servlet>
+        <servlet-name>CarPriceServlet</servlet-name>
+
+        <servlet-class>
+            CarPriceServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>CarPriceServlet</servlet-name>
+
+        <url-pattern>
+            /CarPriceServlet
+        </url-pattern>
+    </servlet-mapping>
+
+</web-app>
